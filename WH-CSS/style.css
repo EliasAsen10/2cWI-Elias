@@ -1,0 +1,17 @@
+.header {
+    display: relative;
+    background-color: green;
+    margin-left: 40px;
+    margin-top: 40px;
+    height: 400px;
+    width: 200px;
+}
+
+.header2 {
+    display: absolute;
+    background-color: orange;
+    right: 0px;
+    bottom: 0px;
+    height: 40px;
+    width: 40px;
+}
