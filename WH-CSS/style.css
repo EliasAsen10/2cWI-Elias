@@ -1,5 +1,5 @@
 .header {
-    display: relative;
+    position: relative;
     background-color: green;
     margin-left: 40px;
     margin-top: 40px;
@@ -8,10 +8,44 @@
 }
 
 .header2 {
-    display: absolute;
+    position: absolute;
     background-color: orange;
     right: 0px;
     bottom: 0px;
     height: 40px;
     width: 40px;
+}
+
+* {
+    font: size 20px;
+    --font-size-big: 1.5rem;
+    --font-size-medium: 1.3rem;
+    --font-size-normal: 1rem;
+    --font-size-low: 0.8rem;
+}
+
+.header3 {
+    background-color: black;
+    height: var(--font-size-normal);
+    width: var(--font-size-normal);
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+.header5 {
+    background-color: orange;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.header4 {
+    background-color: pink;
+    width: 40px;
+    height: 20px;
+    margin: 40px;
 }
