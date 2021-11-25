@@ -1,0 +1,22 @@
+                                                        * {
+                                                            font-family: "ORF ON", Arial, Helvetica, Lucida, Sans Unicode, Lucida Grande, sans-serif;
+                                                            font-feature-settings: "liga", "kern";
+                                                            font-size: 20px;
+                                                            --font-size-very-big: 2.5rem;
+                                                            --font-size-big: 1.5rem;
+                                                            --font-size-normal: 1rem;
+                                                            --font-size-low: 0.8rem;
+                                                        }
+                                                        
+                                                        .Menu {
+                                                            background-color: red;
+                                                            font-size: var(--font-size-low);
+                                                            justify-content: space-around;
+                                                            display: flex;
+                                                            font-weight: var(--font-size-big);
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .Logo {
+                                                            width: 40%;
+                                                        }
