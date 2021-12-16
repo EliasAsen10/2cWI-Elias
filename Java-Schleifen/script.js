@@ -26,7 +26,7 @@ for (let count = 0; count < 11; count++) {
 }
 console.log("Elias")
 
-for (let count = 10; count > -1; count--) {
+for (let count = 10; count > 0; count--) {
     console.log(count)
 }
 
