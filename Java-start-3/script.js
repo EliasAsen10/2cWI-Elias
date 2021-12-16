@@ -1,11 +1,10 @@
-banana = "banana"
-apple = "apple"
-bananaPricePerKilo = 2.14
-applePricePerKilo = 3.43
-oneapplekilo = 0.34
-onebananakilo = 0.22
-numberapples = 8
-
+let banana = "banana"
+let apple = "apple"
+let bananaPricePerKilo = 2.14
+let applePricePerKilo = 3.43
+let oneapplekilo = 0.34
+let onebananakilo = 0.22
+let numberapples = 8
 
 
 let numberbananaprokilo = 1 / onebananakilo
