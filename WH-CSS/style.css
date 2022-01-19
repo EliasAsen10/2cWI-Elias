@@ -36,11 +36,11 @@
 .header5 {
     background-color: orange;
     margin-top: 200px;
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .header4 {
