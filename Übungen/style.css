@@ -15,10 +15,8 @@
 }
 
 .header2 {
-    width: 1000px;
-    height: 100px;
     display: flex;
-    margin-top: 100px;
+    margin-top: 110px;
     background-color: blueviolet;
     justify-content: space-between;
     flex-direction: row;
@@ -26,7 +24,48 @@
 
 .header3 {
     background-color: black;
-    height: 20px;
-    width: 20px;
-    margin-top: 40px;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
+.header5 {
+    position: absolute;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.header7 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header8 {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(146, 93, 55);
+}
+
+.header9 {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(0, 238, 255);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.header10 {
+    position: absolute;
+    background-color: rgb(168, 30, 210);
+    height: 10px;
+    width: 10px;
+    left: -5px;
+    top: -5px;
 }
