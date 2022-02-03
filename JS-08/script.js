@@ -1,10 +1,12 @@
-let random = Math.floor(Math.random() * 5 + 6);
+let random = Math.floor(Math.random() * 6 + 5);
 console.log(random);
-if (random = 10) {
+
+
+if (random === 10) {
     console.log("Ten")
-} else if (radom = 9) {
+} else if (random === 9) {
     console.log("Nine")
-} else if (random = 8) {
+} else if (random === 8) {
     console.log("Eight")
 } else { console.log("etc") }
 //Fehler kommt immer Ten
