@@ -7,4 +7,4 @@ if (random = 10) {
 } else if (random = 8) {
     console.log("Eight")
 } else { console.log("etc") }
-//Fehler kommt immer ten
+//Fehler kommt immer Ten
