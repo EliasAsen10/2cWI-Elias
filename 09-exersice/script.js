@@ -17,4 +17,4 @@ for (let index = 1; index < 20; index++) {
     } else {
         output = output + "0";
     }
-}
+    //geht ab8 nicht mehr weiter true false fehler überschreibt nicht.
