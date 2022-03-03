@@ -1,7 +1,7 @@
 let output = "";
 let isX = true
-for (let index = 0; index < 6; index++) {
-    if (index % 6 == 0) {
+for (let index = 0; index < 20; index++) {
+    if (index % 4 == 0) {
         console.log(output);
         output = ""
         if (isX == true) {
